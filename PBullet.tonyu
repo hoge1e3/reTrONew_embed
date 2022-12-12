@@ -1,0 +1,22 @@
+p=6;
+c=8;
+while (true) {
+    if (screenOut()) die();
+    y-=6;
+    var e=crashTo(Enemy);
+    if (e) {
+        e.die();
+        die();
+        $score+=10;
+    }
+    if (map_getAt(x,y-16)==1){
+        map_setAt(x,y-16,32);
+        die();
+    }
+    update();
+}
+\onUpdate() {
+    //var t;
+    c+=1;
+    if (c>14) c=0;
+}

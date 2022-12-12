@@ -1,0 +1,29 @@
+while(true) {
+    map_setAt(x,y,$pat_font+1);
+    if (getkey("left")) x-=3;
+    if (getkey("right")) x+=3;
+    if (getkey("up")) y-=3;
+    if (getkey("down")) y+=3;
+    // TODO combine these crashTo with hierarchical index
+    //   AbstractEnemy <- {Enemy, EBullet}
+    if (crashTo(Enemy)) {
+        $state=2;
+        die();
+    }
+    if (crashTo(EBullet)) {
+        $state=2;
+        die();
+    }
+    if (getkey("space")==1) {
+        new PBullet{x,y};
+        sound_playSE($se_shot);
+        //$colors[3]=15;
+        /*var e;
+        var r=rnd(10)+1;
+        for (e of all(Enemy)) {
+            e.c=r;
+        }*/
+    }
+    update();
+    
+}

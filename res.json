@@ -1,0 +1,1 @@
+{"images":[{"type":"wh","name":"$pat_spr","url":"ls:images/spr.png","pwidth":16,"pheight":16},{"type":"wh","name":"$pat_font","url":"ls:images/font.png","pwidth":8,"pheight":8}],"sounds":[{"name":"$se_shot","url":"ls:sounds/shot.mzo"},{"name":"$se_mhmain","url":"ls:sounds/mhmain.mzo"}]}
