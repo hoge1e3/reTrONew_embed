@@ -16,6 +16,8 @@ This project is based on [reTrONew](https://github.com/hoge1e3/reTrONew).
   - Press "to 8bitworkshop" to export to [8bitworkshop](https://8bitworkshop.com/)
   - Press "Download ROM" to download as *.ROM file
 - Select "Publish" menu to export the program as HTML5+JS applications including emulators. See also License section.
+## Start from blank project
+- https://run.tonyu.jp/?hoge_ship/blank
 
 ## How to program
 
