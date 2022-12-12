@@ -8,7 +8,7 @@ Open this page:
 ## Modify sample games:
 
 - Open https://run.tonyu.jp/?hoge_ship/rtn_embed
-- Push "Edit Page" at left-top to 
+- Push "Edit Page" at left-top top
 - The program will automatically starts
 - To stop program, press F2 or close dialog.
 - You can edit the contents.
