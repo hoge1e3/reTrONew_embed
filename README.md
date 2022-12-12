@@ -23,9 +23,9 @@ See [Wiki](https://github.com/hoge1e3/reTrONew/wiki) (in [reTrONew](https://gith
 
 ## License
 
-- This software licensed under since GPL. Since the emulator part ([MSXPanel](https://github.com/hoge1e3/MSXPanel)) is a GPL lisenced project, .
-- [reTrONew](https://github.com/hoge1e3/reTrONew), the compiler part is licesed under MIT License. It does not contain emulator.
-- The license of exported programs: 
+- This software consists of the compiler part([reTrONew](https://github.com/hoge1e3/reTrONew)) and the emulator part ([MSXPanel](https://github.com/hoge1e3/MSXPanel)).
+- This software is licensed under GPL since the emulator part is a GPL lisenced project while the compiler part is licesed under MIT License.
+- The license for the exported program is as follows:  
   - Programs exported to MSXPen or 8bitworkshop may be published according to the terms of use of each service.
   - The downloaded *.ROM file can be released under any license of your choice.
   - If you export the program as HTML5+JS applications including emulator, you SHOULD license the program under GPL.
