@@ -17,7 +17,7 @@ This project is based on [reTrONew](https://github.com/hoge1e3/reTrONew).
   - Press "Download ROM" to download as *.ROM file
 - Select "Publish" menu to export the program as HTML5+JS applications including emulators. See also License section.
 ## Start from blank project
-- https://run.tonyu.jp/?hoge_ship/blank
+- https://run.tonyu.jp/?hoge_ship/blank_embed
 
 ## How to program
 
